@@ -13,9 +13,9 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li,
 }
 
 :root{
-  --corBackgroundPrimaria:#5154e7;
+  --corBackgroundPrimaria:#0e0e0e;
   --corBackgroundSecundaria:#04133d;
-  --corBackgroundDark:#0e0e0e;
+  --corBackgroundDark:#5154e7;
   --corTextoPrimaria:#636363;
   --corTextoSecundaria:#000;
 }
