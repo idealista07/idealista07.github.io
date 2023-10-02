@@ -147,7 +147,7 @@ main section:nth-child(3){
         opacity: 1;
         transform: translateY(0);
     }
-}
+}/*Menu*/
 .menu-trigger  div {
     width: 30px;
     height: 4px;
