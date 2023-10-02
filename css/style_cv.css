@@ -326,7 +326,7 @@ label span{
     margin-top: 3px;
 }
 .menu-hidde {
-	background: #333 none repeat scroll 0% 0%;
+	background: none repeat scroll 0% 0%;
 	width: 150px;
 	height: 100%;
 	position: absolute;
