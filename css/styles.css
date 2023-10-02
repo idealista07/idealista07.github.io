@@ -148,7 +148,7 @@ main section:nth-child(3){
         transform: translateY(0);
     }
 }  
-/*
+
 .menu-trigger  div {
     width: 30px;
     height: 4px;
@@ -174,4 +174,3 @@ main section:nth-child(3){
     position: absolute;
   top: 30px;
 }
-*/
