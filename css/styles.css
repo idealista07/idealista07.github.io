@@ -161,7 +161,7 @@ main section:nth-child(3){
 	width: 185px;
 	height: 100%;
 	position: absolute;
-	box-shadow: 1px 2px 3px #DDD;
+	box-shadow: 0px 0px 0px #DDD;
 	left: -100%;
 	transition: left 0.5s ease 0s;
 }
