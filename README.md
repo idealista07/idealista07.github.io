@@ -1,8 +1,6 @@
 <html>
   <head>
-    <title>
-      Bounty Hunters
-    </title>
+      <title>Bounty Hunters</title>
   </head>
   <body>
     <a href="idealista07.github.io">Projeto de site</a>
