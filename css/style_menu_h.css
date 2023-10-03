@@ -23,10 +23,10 @@ html {
 .menu {
   display: flex;
   justify-content: center;
-  align-items: 20px;
+  align-items: center;
   max-width: 720px;
   margin: 0 auto;
-  height: 100px;
+  height: 100vh;
   list-style: none;
 }
 
