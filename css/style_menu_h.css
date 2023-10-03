@@ -49,8 +49,7 @@ html {
   }
 
   &:hover a {
-    color: red;
-      /*#d94f5c*/
+    color: #d94f5c;
   }
 
   &:not(:last-child) {
