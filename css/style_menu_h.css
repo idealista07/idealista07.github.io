@@ -45,7 +45,7 @@ html {
 
   &:hover {
     background: url("/img/linha.svg");
-    animation: line 1s;
+    animation: line 2s;
   }
 
   &:hover a {
