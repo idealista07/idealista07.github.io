@@ -23,7 +23,7 @@ html {
 .menu {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: 20px;
   max-width: 720px;
   margin: 0 auto;
   height: 100vh;
