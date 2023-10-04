@@ -1,139 +1,198 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8" />
-	<link rel="stylesheet" href="/css/styles.css">
-	<link rel="stylesheet" href="/css/style_menu_h.css">
-<title>Home</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style_cv.css">
+  <link rel="stylesheet" href="/css/style_menu_h.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <title>Contato</title>
 </head>
-    <body>
-        <br/>
-        <ol class="menu">
+<body>
+    <input type="checkbox" id="ativar-dark" class="ativar-dark">
+    <div class="dark-mode">
+      <!-- CABEÇALHO -->
+        <header>
+										<ol class="menu">
             <li><a href="https://idealista07.github.io/" class="mymenu" title="Home">Home</a></li>
              <li><a href="#" class="mymenu" title="Sobre">Sobre</a></li>
              <li><a href="#" class="mymenu" title="Portfolio">Portfolio</a></li>
              <li><a href="https://idealista07.github.io/cv.html" class="mymenu" title="Contato">Contato</a></li>
            </ol>
-            <header>
-                <div>
-                    <img src="https://github.com/sway-db.png" alt="sou eu, o tiririca">
-                </div>
-            </header>
-            <main>
-                            <!--abertura de lista <animes>-->
-                <section>
-                    <div>
-                        <h2>Animes</h2>
-                        <p>Animes favoritos</p>
-                        <ul class="anime-list">
-                            <li>
-                                <a
-                                target="_blank"
-                                 href="https://myanimelist.net/anime/4181/Clannad__After_Story?q=clannad&cat=anime">
-                                    <img src="https://cdn.myanimelist.net/images/anime/1299/110774.jpg" alt="Foto Capa Anime Clannad: After History">
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    target="_blank"
-                                    href="https://myanimelist.net/anime/18245/White_Album_2">
-                                    <img src="https://cdn.myanimelist.net/images/anime/2/53561.jpg" alt="Foto Capa Anime White album 2">
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    target="_blank"
-                                    href="https://myanimelist.net/anime/17895/Golden_Time?q=golden%20time&cat=anime">
-                                    <img src="https://cdn.myanimelist.net/images/anime/12/52091.jpg" alt="Foto Capa Anime Golden Time">
-                                </a>
-                            </li>
-                        </ul>
+					               <div class="container">
+			          <label for="ativar-dark">				
+                <span></span>
+              </label>  					
+              <div class="linha">
+          <!-- DIV FOTO DE PERFIL -->
+          <div class="coluna coluna-esquerda">
+            <figure>
+              <img src="img/profile.png">
+                        <figcaption class="hidden">Douglas Ramos</figcaption>
+                    </figure>
                     </div>
-                </section>
-                            <!--abertura de lista jogos-->
-                <section>
-                    <div>
-                        <h2>Jogos</h2>
-                        <p>Jogos favoritos</p>
-                        <ul class="games-list">
-                            <li>
-                                <a
-                                target="_blank" 
-                                href="https://www.twitch.tv/directory/game/The%20Evil%20Within">
-                                <img src="https://static-cdn.jtvnw.net/ttv-boxart/68000_IGDB-144x192.jpg" alt="The evil within">
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                target="_blank"
-                                href="https://www.twitch.tv/directory/game/Elden%20Ring">
-                                    <img src="https://static-cdn.jtvnw.net/ttv-boxart/512953_IGDB-144x192.jpg" alt="Elden ring">
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                target="_blank"
-                                href="https://www.twitch.tv/directory/game/Outlast%20II">
-                                    <img src="https://static-cdn.jtvnw.net/ttv-boxart/510117_IGDB-144x192.jpg" alt="Outlast 2">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>    
-                </section>
-                            <!--abertura lista redes sociais-->
-                <section>
-                    <div>
-                        <h2>Redes sociais</h2>
-                        <ul class ="social">
-                            <li>
-                                <a
-                                target="_blank"
-                                href="https://www.twitch.tv/ryner42">
-                                <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M21.2824 25H15.8426C15.6011 25.0001 15.3678 25.0844 15.1852 25.2375L9.28125 30V25H6.1875C5.914 25 5.65169 24.8946 5.4583 24.7071C5.2649 24.5196 5.15625 24.2652 5.15625 24V6C5.15625 5.73478 5.2649 5.48043 5.4583 5.29289C5.65169 5.10536 5.914 5 6.1875 5H26.8125C27.086 5 27.3483 5.10536 27.5417 5.29289C27.7351 5.48043 27.8438 5.73478 27.8438 6V19.5375C27.8417 19.6832 27.8072 19.8267 27.7427 19.9583C27.6782 20.0899 27.5851 20.2065 27.4699 20.3L21.9398 24.7625C21.7572 24.9156 21.5239 24.9999 21.2824 25V25Z" stroke="#9A35FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M21.6562 11V17" stroke="#9A35FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M15.4688 11V17" stroke="#9A35FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>                                    
-                            </a>
-                            </li>
-                            <li>
-                                <a
-                                target="_blank"
-                                href="https://www.twitch.tv/ryner42">
-                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 11C16 8.25003 18.3125 5.96253 21.0625 6.00003C22.0256 6.01115 22.9649 6.30018 23.7676 6.83237C24.5704 7.36457 25.2023 8.11728 25.5875 9.00003H30L25.9625 13.0375C25.7019 17.0932 23.9066 20.8975 20.9415 23.6769C17.9764 26.4562 14.0641 28.002 10 28C6 28 5 26.5 5 26.5C5 26.5 9 25 11 22C11 22 3 18 5 7.00003C5 7.00003 10 12 16 13V11Z" stroke="#2871FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                target="_blank"
-                                href="https://www.twitch.tv/ryner42">
-                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21Z" stroke="#FA41FE" stroke-width="2" stroke-miterlimit="10"/>
-                                    <path d="M21.5 4.5H10.5C7.18629 4.5 4.5 7.18629 4.5 10.5V21.5C4.5 24.8137 7.18629 27.5 10.5 27.5H21.5C24.8137 27.5 27.5 24.8137 27.5 21.5V10.5C27.5 7.18629 24.8137 4.5 21.5 4.5Z" stroke="#FA41FE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M22.5 11C23.3284 11 24 10.3284 24 9.5C24 8.67157 23.3284 8 22.5 8C21.6716 8 21 8.67157 21 9.5C21 10.3284 21.6716 11 22.5 11Z" fill="#FA41FE"/>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                target="_blank"
-                                href="https://www.twitch.tv/ryner42">
-                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M20 16L14 12V20L20 16Z" stroke="#F40000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M3 16C3 19.725 3.3875 21.9 3.675 23.025C3.75427 23.3302 3.90418 23.6126 4.11262 23.8493C4.32106 24.0859 4.58221 24.2703 4.875 24.3875C9.0625 25.9875 16 25.95 16 25.95C16 25.95 22.9375 25.9875 27.125 24.3875C27.4178 24.2703 27.6789 24.0859 27.8874 23.8493C28.0958 23.6126 28.2457 23.3302 28.325 23.025C28.6125 21.9 29 19.725 29 16C29 12.275 28.6125 10.1 28.325 8.975C28.2457 8.66975 28.0958 8.38741 27.8874 8.15074C27.6789 7.91407 27.4178 7.7297 27.125 7.6125C22.9375 6.0125 16 6.05 16 6.05C16 6.05 9.0625 6.0125 4.875 7.6125C4.58221 7.7297 4.32106 7.91407 4.11262 8.15074C3.90418 8.38741 3.75427 8.66975 3.675 8.975C3.3875 10.1 3 12.275 3 16Z" stroke="#F40000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
+                    <div class="coluna coluna-direita">
+                    <h1>Douglas Ramos</h1>
+                    <p>Analista de Suporte</p>
+                    <ul>
+                        <li>
+                            <a href="mailto:ramos.ti@live.com">ramos.ti@live.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:5548996635252">(48) 9 9663-5252</a>
+                        </li>
+                        <li>
+													<p>Rua Canelinha, 36 - Centro - São João Batista / SC</p>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        </header>
+      <!-- CORPO DA ÁGINA -->
+        <main>
+          <div class="container">
+            <div class="linha">
+              <!-- CONTEUDO LADO ESQUERDO -->
+              <div class="coluna coluna-esquerda">
+                  <section>
+                    <span class="topo-direita"></span>
+                    <h2>Perfil Profissional</h2>
+                    <p> Sou bastante formal e estruturado, com estilo vigoroso e até ríspido. Busco alto nível de qualidade em tudo o que faço e não me intimido em dizer o que penso de maneira direta e contundente. Sou muito determinado, persistente e não tenho medo de trabalhar duro. Apesar de me esforçar para concluir tarefas de forma rápida, sou perfeccionista e quero ter certeza de que satisfaz meu próprio padrão de qualidade.</p>
+                    <span class="baixo-esquerda"></span>
+                  </section>
+                  <section>
+                    <span class="topo-direita"></span>
+                    <h2>Especialidades</h2>
+                    <ul>
+                      <li>Az-900</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                      <li>Java</li>
+                    </ul>
+                    <span class="baixo-esquerda"></span>
+                  </section>
 
-            </main>
-    </body>
+                  <section>
+                    <span class="topo-direita"></span>
+                    <h2>Cursos</h2>
+                      <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Técnico em Informática</li>
+                        <li>Lógica de programação</li>
+                      </ul>
+                      <span class="baixo-esquerda"></span>
+                  </section>
+              </div>
+
+              <!-- CONTEUDO LADO DIREITO -->
+              <div class="coluna coluna-direita">
+                  <section>
+                    <span class="topo-direita"></span>
+                    <h2>Experiências</h2>
+                      <ul>
+                        <li>
+                            <h3>Cargo</h3>
+                            <strong>Nome da Empresa 1</strong>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, eius! Aspernatur consequatur, quaerat natus corrupti exercitationem, magni ducimus odio facilis quod perspiciatis, velit eos! Velit sed optio amet! Voluptates, nesciunt.</p>
+                            <p>Periodo de trabalho</p>
+                        </li>
+                        <li>
+                          <h3>Cargo</h3>
+                          <strong>Nome da Empresa 1</strong>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, eius! Aspernatur consequatur, quaerat natus corrupti exercitationem, magni ducimus odio facilis quod perspiciatis, velit eos! Velit sed optio amet! Voluptates, nesciunt.</p>
+                          <p>Periodo de trabalho</p>
+                      </li>
+                      <li>
+                        <h3>Cargo</h3>
+                        <strong>Nome da Empresa 1</strong>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, eius! Aspernatur consequatur, quaerat natus corrupti exercitationem, magni ducimus odio facilis quod perspiciatis, velit eos! Velit sed optio amet! Voluptates, nesciunt.</p>
+                        <p>Periodo de trabalho</p>
+                    </li>
+                      </ul>
+                      <span class="baixo-esquerda"></span>
+                  </section>
+                  <section>
+                    <span class="topo-direita"></span>
+                    <h2>Formação</h2>
+                      <ul>
+                        <li>
+                          <h3>Curso técnico em Informática</h3>
+                          <p>Senac - Santa Rosa</p>
+                          <p>Ano de Conclusão: xxxx</p>
+                          
+                        </li>
+                        <li>
+                          <h3>Curso técnico em Informática</h3>
+                          <p>Senac - Santa Rosa</p>
+                          <p>Ano de Conclusão: xxxx</p>
+                          
+                        </li>
+                        <li>
+                          <h3>Curso técnico em Informática</h3>
+                          <p>Senac - Santa Rosa</p>
+                          <p>Ano de Conclusão: xxxx</p>
+                          
+                        </li>
+                      </ul>
+                      <span class="baixo-esquerda"></span>
+                  </section>
+              </div>
+
+            </div>
+          </div>
+        </main>
+
+      <!-- RODAPÉ -->
+        <footer>
+        <div class="container">
+          <nav>
+            <ul class="info-contato">
+             <li>
+                <a href=""></a>
+              </li>
+            </ul>
+          </nav>
+          <nav>
+            <ul class="redes-sociais">
+              <li>
+                <a href="https://www.linkedin.com/in/douglas-ramos-ti/">
+                  <img src="img/linkedin.svg" alt="Linkedin">
+                  <p>Linkedin</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/idealista07">
+                  <img src="img/github.svg" alt="GitHub">
+                  <p>GitHub</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/DSRamos_007">
+                  <img src="img/telegram.png" alt="Telegram">
+                  <p>Telegram</p>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:ramos.ti@live.com">
+                  <img src="img/email.png" alt="email">
+                  <p>E-mail</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://api.whatsapp.com/send/?phone=48996635252&text&type=phone_number&app_absent=0">
+                  <img src="img/whatsapp.png" alt="whatsapp">
+                  <p>whatsapp</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        </footer>
+    </div>
+</body>
 </html>
