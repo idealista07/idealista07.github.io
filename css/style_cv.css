@@ -16,10 +16,10 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li,
   /*--corBackgroundPrimaria:#5154e7;51d6e7*/
   --corBackgroundPrimaria:#fff;
   --corBackgroundSecundaria:#04133d;
-  --corBackgroundDark:#000;
+  --corBackgroundDark:#121214;
   /*--corBackgroundDark:#0e0e0e;*/
   --corTextoPrimaria:#636363;
-  --corTextoSecundaria:#000;
+  --corTextoSecundaria:#121214;
 }
 
 .hidden{
@@ -199,8 +199,8 @@ label span{
 }
 
 .ativar-dark:checked ~ .dark-mode{
-  --corBackgroundPrimaria:#000;
-  --corBackgroundSecundaria:#000;
+  --corBackgroundPrimaria:#121214;
+  --corBackgroundSecundaria:#121214;
   --corTextoPrimaria:#fff;
   --corTextoSecudaria:#fff;
 }
