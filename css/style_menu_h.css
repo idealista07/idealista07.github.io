@@ -20,7 +20,7 @@ ol li a {
   color: #05a6ac;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.15em;
+  letter-spacing: auto;
   
   display: inline-block;
   padding: 15px 20px;
