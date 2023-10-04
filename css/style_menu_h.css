@@ -1,9 +1,11 @@
-body,html {
+/*body,html {
   margin: auto;
   font: bold 12px/1.0 'Open Sans', arial, sans-serif;
- /*background: #000;*/
-}
+ background: #000;
+}*/
 ol { 
+  margin: auto;
+  font: bold 12px/1.0 'Open Sans', arial, sans-serif;
   margin: auto; 
   padding: 0; 
   list-style: none; 
