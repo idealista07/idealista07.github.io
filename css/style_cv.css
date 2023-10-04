@@ -1,11 +1,11 @@
-html, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li, a,main{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li, a,main{
+  margin: auto;
+  padding: auto;
+  /*box-sizing: border-box;*/
   list-style: none;
-  text-decoration: none;
+  /*text-decoration: none;*/
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  /*font-size: 16px;*/
 }
 
 .coluna{
