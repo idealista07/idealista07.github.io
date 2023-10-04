@@ -1,9 +1,6 @@
-body,html {
-  margin: 0;
-  font: bold 14px/1.4 'Open Sans', arial, sans-serif;
-  background: #000;
-}
-ul { 
+
+ol { 
+	background: #000;
   margin: 5px auto 0; 
   padding: 0; 
   list-style: none; 
@@ -12,22 +9,21 @@ ul {
   text-align: center;
 }
 
-li { 
-  display: table-cell; 
-  position: relative; 
+ol li { 
+  display: table-cell;
   padding: 15px 0;
-}
-a {
+	}
+
+ol li a {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
-  
   display: inline-block;
   padding: 15px 20px;
   position: relative;
 }
-a:after {    
+ol li a:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -40,12 +36,8 @@ a:after {
   width: 0;
 }
 
-a:hover:after { 
+ol li a:hover:after { 
   width: 100%; 
   left: 0; 
 }
 @media screen and (max-height: 300px) {
-	ul {
-		margin-top: 40px;
-	}
-}
