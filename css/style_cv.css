@@ -295,8 +295,8 @@ label span{
     animation-duration: 1s, 1s;
     animation-delay: 2s, 3s;
     animation-fill-mode: forwards;
-    border-top-color: #fff;
-    border-right-color: #fff;
+    border-top-color: #51d6e7;
+    border-right-color: #51d6e7;
   }
   
   main .coluna section .baixo-esquerda{
