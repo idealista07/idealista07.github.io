@@ -1,6 +1,6 @@
  body,html {
   margin: auto;
-  font: bold 10px/1.2 'Open Sans', arial, sans-serif;
+  font: bold 14px/1.0 'Open Sans', arial, sans-serif;
 /* background: #000;*/
 }
 ol { 
@@ -14,7 +14,7 @@ ol {
 ol li { 
   display: table-cell; 
   position: relative; 
-  padding: 15px 0;
+  padding: 10px 0;
 }
 ol li a {
   color: #05a6ac;
