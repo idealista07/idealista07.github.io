@@ -307,7 +307,7 @@ label span{
     animation-delay: 4s, 5s;
     animation-fill-mode: forwards;
     border-bottom-color:#51d6e7 ;
-    border-left-color: #fff;
+    border-left-color: #51d6e7;
   }
 
   main .coluna{
