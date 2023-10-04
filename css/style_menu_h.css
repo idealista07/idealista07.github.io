@@ -1,23 +1,27 @@
-
+body,html {
+  margin: 0;
+  font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+  /*background: #000;*/
+}
 ol { 
-  margin: 5px auto 0; 
+  margin: auto; 
   padding: 0; 
   list-style: none; 
   display: table;
   width: 600px;
   text-align: center;
 }
-
 ol li { 
-  display: table-cell;
+  display: table-cell; 
+  position: relative; 
   padding: 15px 0;
-	}
-
+}
 ol li a {
-  color: #fff;
+  color: #05a6ac;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
+  
   display: inline-block;
   padding: 15px 20px;
   position: relative;
@@ -37,4 +41,9 @@ ol li a:after {
 ol li a:hover:after { 
   width: 100%; 
   left: 0; 
+}
+@media screen and (max-height: 300px) {
+	ol {
+		margin-top: 40px;
+	}
 }
