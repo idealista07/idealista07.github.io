@@ -1,3 +1,4 @@
+/*---INICIO--CSS_CV--INICIO*/
 html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li, a,main{
   margin: 0;
   padding: 0;
@@ -322,7 +323,7 @@ label span{
     display: initial;
   } 
 }
-
+/*--FIM--CSS_CV--FIM--*/
 
 
 
