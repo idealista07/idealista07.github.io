@@ -20,7 +20,7 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li,
   --corBackgroundDark:#121214;
   /*--corBackgroundDark:#0e0e0e;*/
   --corTextoPrimaria:#636363;
-  --corTextoSecundaria:#121214;
+  --corTextoSecundaria:#121214 #5154e7;
 }
 
 .hidden{
@@ -183,7 +183,7 @@ label span{
   width: 20px;
   height: 20px;
   display: block;
-  background-color: #d4e9ff;
+  background-color: #121214;
   border-radius: 100%;
   transition: .2s;
 }
