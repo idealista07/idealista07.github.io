@@ -1,18 +1,31 @@
-<p><input type="checkbox" /></p>
-
-<div class="dark-mode"><!-- CABEÇALHO -->
-<ol>
-	<li><a class="mymenu" href="https://idealista07.github.io/" title="Home">Home</a></li>
-	<li><a class="mymenu" href="#" title="About">About</a></li>
-	<li><a class="mymenu" href="https://medium.com/@ramos.ti" title="Portfolio">Portfolio</a></li>
-	<li><a class="mymenu" href="fale.html" title="Contact">Contact</a></li>
-</ol>
-
-<div class="container"><!-- 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="/css/style_cv.css">
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style_cv.css">
+  <link rel="stylesheet" href="/css/style_menu_h.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <title>Home</title>
+</head>
+<body>
+    <input type="checkbox" id="ativar-dark" class="ativar-dark">
+    <div class="dark-mode">
+      <!-- CABEÇALHO -->
+        <header>
+	<ol class="menu">
+            <li><a href="https://idealista07.github.io/" class="mymenu" title="Home">Home</a></li>
+             <li><a href="#" class="mymenu" title="About">About</a></li>
+             <li><a href="https://medium.com/@ramos.ti" class="mymenu" title="Portfolio">Portfolio</a></li>
+             <li><a href="fale.html" class="mymenu" title="Contact">Contact</a></li>
+        </ol>
+	<div class="container">
+	      <label for="ativar-dark">				
+                <span></span>
+              </label>
 <p>Ticket</p>
 
 <form action="envia_fale.php"><br />
@@ -37,38 +50,52 @@ MENSAGEM:<br />
 <p>&nbsp;</p>
 
 <p><br />
-<!-- RODAPÉ --></p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<div class="container">
-<ul>
-	<li>&nbsp;</li>
-</ul>
-
-<ul>
-	<li><a href="https://www.linkedin.com/in/douglas-ramos-ti/"><img alt="Linkedin" src="img/linkedin.svg" /> </a>
-
-	<p><a href="https://www.linkedin.com/in/douglas-ramos-ti/">Linkedin</a></p>
-	<a href="https://www.linkedin.com/in/douglas-ramos-ti/"> </a></li>
-	<li><a href="https://github.com/idealista07"><img alt="GitHub" src="img/github.svg" /> </a>
-	<p><a href="https://github.com/idealista07">GitHub</a></p>
-	<a href="https://github.com/idealista07"> </a></li>
-	<li><a href="https://t.me/DSRamos_007"><img alt="Telegram" src="img/telegram.png" /> </a>
-	<p><a href="https://t.me/DSRamos_007">Telegram</a></p>
-	<a href="https://t.me/DSRamos_007"> </a></li>
-	<li><a href="mailto:ramos.ti@live.com"><img alt="E-mail" src="img/outlook.png" /> </a>
-	<p><a href="mailto:ramos.ti@live.com">E-mail</a></p>
-	<a href="mailto:ramos.ti@live.com"> </a></li>
-	<li>
+  <!-- RODAPÉ -->
+        <footer>
+        <div class="container">
+          <nav>
+            <ul class="info-contato">
+             <li>
+                <a href=""></a>
+              </li>
+            </ul>
+          </nav>
+         <nav>
+            <ul class="redes-sociais">
+              <li>
+                <a href="https://www.linkedin.com/in/douglas-ramos-ti/">
+                  <img src="img/linkedin.svg" alt="Linkedin">
+                  <p>Linkedin</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/idealista07">
+                  <img src="img/github.svg" alt="GitHub">
+                  <p>GitHub</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/DSRamos_007">
+                  <img src="img/telegram.png" alt="Telegram">
+                  <p>Telegram</p>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:ramos.ti@live.com">
+                  <img src="img/outlook.png" alt="E-mail">
+                  <p>E-mail</p>
+                </a>
+              </li>
+              <!--<li>
                 <a href="https://api.whatsapp.com/send/?phone=48996635252&text&type=phone_number&app_absent=0">
                   <img src="img/whatsapp.png" alt="whatsapp">
                   <p>whatsapp</p>
                 </a>
-	
-</ul>
-</div>
-</div>
-</div>
+	    </li>-->
+            </ul>
+          </nav>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>
