@@ -64,21 +64,21 @@
                     <p align="justify">  Profissional de tecnologia com mais de 13 anos de experiência em soluções diversificadas, atuei em suporte técnico e 
 			    em infraestrutura, adaptando-se as limitações do cliente, sempre deixando as informações mais claras possíveis. Já gerenciei 
 			    ambientes utilizando tecnologias como VMWare, Hyperv e Proxmox. Tenho uma vasta experiência em redes de computadores e em Mikrotik, 
-			    conhecimentos básicos em Pfsense, Linux, containers e vários Cloud Providers.
+			    conhecimentos básicos em Pfsense, Linux, containers e vários Cloud Providers.</br></br>
 
 			    Ao longo da minha carreira adquiri as certificações MTCNA, AZ900, SC900, AWS Cloud Practitioner, OCI Foundations, OCI Data 
 			    Management, Fortinet Certified Fundamentals Cybersecurity e em breve concluirei as certificações em FinOps e Aviatrix Cloud 
-			    Networking Certification.
+			    Networking Certification.</br></br>
 
 			    Atualmente estou me especializando em nuvem através da implementação de projetos baseados em cenários reais com foco em tecnologias
 			    e serviços da Microsoft Azure, Oracle Cloud Infraestructure, Google Cloud Provider com o objetivo de apoiar as empresas em suas
 			    jornadas de migração e modernização dos ambientes OnPremisses para nuvem, aproveitando o conhecimento em ITIL que adquiri no decorrer
-			    de minha carreira.</p>
+			    de minha carreira.</br></p>
                     <span class="baixo-esquerda"></span>
                   </section>
                   <section>
                     <span class="topo-direita"></span>
-                    <h2>Certifications</h2>
+                    <h2>Certificações</h2>
                     <ul>
                       <li>Microsoft Certified: Azure Fundamentals</li>
                       <li>Microsoft: Security, Compliance, and Identity Fundamentals</li>
